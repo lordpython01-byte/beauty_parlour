@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Layout from './components/Layout';
 import BillingPage from './components/BillingPage';
 import ProductsPage from './components/ProductsPage';
+import CategoriesPage from './components/CategoriesPage';
 import ServicesPage from './components/ServicesPage';
 import StockPage from './components/StockPage';
 import ReportsPage from './components/ReportsPage';
@@ -16,6 +17,8 @@ function App() {
         return <BillingPage />;
       case 'products':
         return <ProductsPage />;
+      case 'categories':
+        return <CategoriesPage />;
       case 'services':
         return <ServicesPage />;
       case 'stock':
